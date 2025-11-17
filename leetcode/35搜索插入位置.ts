@@ -1,4 +1,5 @@
 // 二分查找元素插入位置，例题
+// 闭区间写法
 function searchInsert(nums: number[], target: number): number {
   let left = 0;
   let right = nums.length - 1;
