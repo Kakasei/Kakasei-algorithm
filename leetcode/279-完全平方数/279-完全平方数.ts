@@ -1,5 +1,4 @@
 // 动态规划，自己想出来的解法，一次通过
-// TODO优化时间复杂度
 // 实际上这是一道背包问题...我还没学到背包问题
 function numSquares(n: number): number {
     const f: number[] = [];
