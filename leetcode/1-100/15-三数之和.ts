@@ -1,5 +1,5 @@
 // 167-两数之和II的进阶，核心仍然是利用首尾相向双指针，在有序数组中寻找两数之和
-// 看了题解
+// TODO看了题解才会写，需要再做一次
 function threeSum(nums: number[]): number[][] {
     const result: number[][] = [];
     nums.sort((a, b) => {

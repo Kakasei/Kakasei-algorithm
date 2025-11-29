@@ -1,6 +1,5 @@
 // 动态规划基础题，递推写法
-// 但是没有优化空间复杂度
-// TODO
+// TODO优化空间复杂度
 function minCostClimbingStairs(cost: number[]): number {
     const f = new Array(cost.length + 1);
     f[0] = 0;
