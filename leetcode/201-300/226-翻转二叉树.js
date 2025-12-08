@@ -1,3 +1,5 @@
+// 二叉树基础题
+
 /**
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {
@@ -8,8 +10,14 @@
  */
 /**
  * @param {TreeNode} root
- * @return {number[]}
+ * @return {TreeNode}
  */
-var rightSideView = function(root) {
-    
+var invertTree = function (root) {
+    if (root === null) {
+        return null;
+    }
+    [root.right, root.left] = [root.left, root.right];
+    invertTree(root.left);
+    invertTree(root.right);
+    return root;
 };
