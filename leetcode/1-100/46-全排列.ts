@@ -1,5 +1,5 @@
 // TODO回溯基础题，hot100，需要完全掌握
-// 算是第一次接触这种排列问题吧，用队列记录已经参与排列的元素
+// 算是第一次接触这种排列问题吧，我们选择用队列记录还没参与排列的元素
 
 function permute(nums: number[]): number[][] {
     const result: number[][] = [];
