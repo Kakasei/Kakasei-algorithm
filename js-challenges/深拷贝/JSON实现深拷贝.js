@@ -1,3 +1,5 @@
+// JSON深拷贝，是深拷贝最简明的实现，缺陷是无法处理undefined 函数 Date 正则等特殊类型，以及无法处理循环引用，对大规模数据的性能也不好
+
 const origin = {
     name: "Kakasei",
     details: {
